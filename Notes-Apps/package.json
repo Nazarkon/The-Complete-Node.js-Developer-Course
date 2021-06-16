@@ -1,0 +1,16 @@
+{
+  "name": "notes-apps",
+  "version": "1.0.0",
+  "description": "Small notes app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Nazar Montsibovych",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "validator": "^13.6.0",
+    "yargs": "^17.0.1"
+  }
+}
