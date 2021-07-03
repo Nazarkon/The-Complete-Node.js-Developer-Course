@@ -7,6 +7,8 @@ const getNotes = (file) => {
 const addNote = (title, body) => {
     const notes = loadNotes()
 
+    debugger
+
     const duplicateNotes = notes.filter((note) => note.title === title)
 
     if(duplicateNotes.length === 0){
